@@ -21,11 +21,12 @@
 
     <body>
         <header>
+ 
             <!-- place navbar here -->
             <!-- Nav tabs -->
             
              <ul
-                class="nav nav-tabs fixed-top"
+                class="navUl nav nav-tabs fixed-top"
                 id="navId"
                 role="tablist"
              >
@@ -39,29 +40,29 @@
                     >
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="Plot.html" class="nav-link" 
+                    <a href="Plot.html" class="nav-link white-link" 
                         >Gameplay/Plot</a
                     >
                 </li>
-                <li class="nav-item" role="presentation">
-                    <a href="development.html" class="nav-link"
+                <li class="nav-item" role="presentation" >
+                    <a href="development.html" class="nav-link white-link"
                         >Development</a
                     >
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="Reception.html" class="nav-link" 
+                    <a href="Reception.html" class="nav-link white-link"
                         >Reception</a
                     >
                 </li>
                 <li class="nav-item" role="presentation">
-                    <a href="Legacy.html" class="nav-link" 
+                    <a href="Legacy.html" class="nav-link white-link"
                         >Legacy </a
                     >
                 </li>
              </ul>
              
              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade " id="main-item" role="tabpanel"></div>
+                <div class="tab-pane" id="main-item" role="tabpanel"></div>
                 <div class="tab-pane fade" id="legacy-item" role="tabpanel"></div>
                 <div class="tab-pane fade" id="Reception-item" role="tabpanel"></div>
                 <div class="tab-pane fade" id="development-item" role="tabpanel"></div>
@@ -73,8 +74,7 @@
                 var triggerEl = document.querySelector("#navId a");
                 bootstrap.Tab.getInstance(triggerEl).show(); // Select tab by name
              </script>
-             
-             
+                
         </header>
         <main></main>
         <footer>
