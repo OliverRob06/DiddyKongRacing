@@ -1,8 +1,4 @@
-body {
-    
-}
-
 nav {
-    text-align: center;
-    justify-content: center;
+    position: sticky;
+    top: 0;
 }
