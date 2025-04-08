@@ -18,7 +18,8 @@ nav {
 
 body {
     
-    background-color: #383534;
+    /* background-color: #383534; */
+    background-image: url("DKBackground.jpg");
     color: white;
 }
 
