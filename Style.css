@@ -1,6 +1,8 @@
 body {
-    background-image: url("DiddyKongImage.jpg");
-    background-repeat:repeat ;
+    
+    background-color: #383534;
+    color: white;
+    text-align: center;
 }
 
 nav {
