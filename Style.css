@@ -49,6 +49,18 @@ body {
     
 }
 
+#guys {
+    width: 550px;
+    height: 190px;
+    border: 3px solid black ;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #dcc338db;
+    padding: 20px;
+    margin: px 20px 20px 20px;   
+    
+}
+
 #title{
     justify-content: center;
     margin:20px 20px 20px 20px;
