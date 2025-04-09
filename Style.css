@@ -65,7 +65,7 @@ body {
     display: table;
     clear: both;
   }
-  
+
 td{
     padding: 5px;
     margin: 10px;
@@ -84,6 +84,15 @@ table, td {
 
 .main{
     background-color: transparent;
+}
+
+
+
+
+
+@font-face{
+    font-family: 'Custom-Font';
+    src: url('BungeeSpice-Regular.ttf');
 }
 
 /* test */
