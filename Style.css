@@ -5,9 +5,8 @@ nav {
     color: white;
 }
 
-.navUl
-{
-    background-image: linear-gradient(90deg,#58995Eff, #0D2570ff);
+.navUl {
+    background-image: linear-gradient(90deg, #58995Eff, #0D2570ff);
 }
 
 .white-link {
@@ -15,47 +14,40 @@ nav {
 }
 
 /* Main body CSS */
-
 body {
-    
     /* background-color: #383534; */
     background-image: url("DKBackground.jpg");
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-size: contain;
     background-position: center center;
-    
     color: white;
 }
 
 .divCardStyling {
     background-color: #dcc338db;
-    border: 3px solid black ;
+    border: 3px solid black;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
 }
 
-
-/* .cardText{} */
-
+/* #cardText {} */
 
 #boxArt {
     width: 550px;
     height: 350px;
-    border:black 5px double;
-    border-radius: 10px; 
+    border: black 5px double;
+    border-radius: 10px;
     margin-bottom: 35px;
     justify-content: center;
-    
 }
 
-#title{
+#title {
     justify-content: center;
-    margin:20px 20px 20px 20px;
-  
+    margin: 20px;
 }
 
-.column{
+.column {
     float: left;
     width: 50%;
 }
@@ -64,39 +56,71 @@ body {
     content: "";
     display: table;
     clear: both;
-  }
-  
-td{
+}
+
+td {
     padding: 5px;
     margin: 10px;
     text-align: center;
     border: 1px solid black;
     border-radius: 5px;
-    alpha-levels: 100000000000;
-
-    
+    /* Removed invalid alpha-levels property */
 }
+
 table, td {
     border: 1.5px solid black;
     border-collapse: separate;
 }
 
-/* .container {
-    display: grid inline-grid;
-    grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
-     grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+/* Resolved style conflicts here */
 
+.titles {
+    font-family: 'Custom-Font';
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fdcc07;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.main {
+    background-color: transparent;
+}
+
+.receptionMain {
+    border: 2px solid black;
+    background-color: #dcc338db;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: right;
+}
+
+@font-face {
+    font-family: 'Custom-Font';
+    src: url('BungeeSpice-Regular.ttf');
+}
+
+/* Optional: you can reintroduce grid layout below if needed */
+/*
+.container {
+    display: inline-grid;
+    grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
 }
 
 #LSideBar {
     grid-column-start: span 1;
     grid-column-end: 2;
-} */
+}
+*/
 
 /* test */
 
-
-/* CSS HEX */
+/* COLOR REFERENCES (comments only, for dev reference) */
 /*
 --sapphire: #154DCDff;
 --earth-yellow: #F6BD6Dff;
@@ -104,42 +128,7 @@ table, td {
 --shamrock-green: #58995Eff;
 --royal-blue-traditional: #0D2570ff;
 
-CSS HSL 
---sapphire: hsla(222, 81%, 44%, 1);
---earth-yellow: hsla(35, 88%, 70%, 1);
---poppy: hsla(357, 73%, 52%, 1);
---shamrock-green: hsla(126, 27%, 47%, 1);
---royal-blue-traditional: hsla(225, 79%, 25%, 1);
-
-SCSS HEX 
-$sapphire: #154DCDff;
-$earth-yellow: #F6BD6Dff;
-$poppy: #DE2D35ff;
-$shamrock-green: #58995Eff;
-$royal-blue-traditional: #0D2570ff;
-
-SCSS HSL 
-$sapphire: hsla(222, 81%, 44%, 1);
-$earth-yellow: hsla(35, 88%, 70%, 1);
-$poppy: hsla(357, 73%, 52%, 1);
-$shamrock-green: hsla(126, 27%, 47%, 1);
-$royal-blue-traditional: hsla(225, 79%, 25%, 1);
-
-SCSS RGB 
-$sapphire: rgba(21, 77, 205, 1);
-$earth-yellow: rgba(246, 189, 109, 1);
-$poppy: rgba(222, 45, 53, 1);
-$shamrock-green: rgba(88, 153, 94, 1);
-$royal-blue-traditional: rgba(13, 37, 112, 1);
-
- SCSS Gradient 
-$gradient-top: linear-gradient(0deg, #154DCDff, #F6BD6Dff, #DE2D35ff, #58995Eff, #0D2570ff);
+SCSS Gradients:
 $gradient-right: linear-gradient(90deg, #154DCDff, #F6BD6Dff, #DE2D35ff, #58995Eff, #0D2570ff);
-$gradient-bottom: linear-gradient(180deg, #154DCDff, #F6BD6Dff, #DE2D35ff, #58995Eff, #0D2570ff);
-$gradient-left: linear-gradient(270deg, #154DCDff, #F6BD6Dff, #DE2D35ff, #58995Eff, #0D2570ff);
-$gradient-top-right: linear-gradient(45deg, #154DCDff, #F6BD6Dff, #DE2D35ff, #58995Eff, #0D2570ff);
-$gradient-bottom-right: linear-gradient(135deg, #154DCDff, #F6BD6Dff, #DE2D35ff, #58995Eff, #0D2570ff);
-$gradient-top-left: linear-gradient(225deg, #154DCDff, #F6BD6Dff, #DE2D35ff, #58995Eff, #0D2570ff);
-$gradient-bottom-left: linear-gradient(315deg, #154DCDff, #F6BD6Dff, #DE2D35ff, #58995Eff, #0D2570ff);
 $gradient-radial: radial-gradient(#154DCDff, #F6BD6Dff, #DE2D35ff, #58995Eff, #0D2570ff);
 */
