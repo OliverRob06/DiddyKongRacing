@@ -40,12 +40,12 @@ body {
 
 
 #boxArt {
-    float:right;
     width: 550px;
     height: 350px;
     border:black 5px double;
     border-radius: 10px; 
     margin-bottom: 35px;
+    justify-content: center;
     
 }
 
