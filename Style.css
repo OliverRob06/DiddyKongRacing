@@ -104,6 +104,16 @@ table, td {
     src: url('BungeeSpice-Regular.ttf');
 }
 
+
+
+
+/* Legacy CSS */
+
+.GDKRacing{
+    padding-bottom: 20px !important;
+}
+
+
 /* Optional: you can reintroduce grid layout below if needed */
 /*
 .container {
