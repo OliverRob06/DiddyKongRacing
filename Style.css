@@ -82,11 +82,18 @@ table, td {
 }
 
 .titles{
-    
+    font-family: 'Custom-Font';
     font-size: 40px;
     font-weight: bold;
     text-align: center;
+    background-color:  #fdcc07;
+    border: 3px solid black ;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+ 
 }
+
 
 .main{
     background-color: transparent;
