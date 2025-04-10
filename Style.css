@@ -128,17 +128,21 @@ table, td {
     src: url('BungeeSpice-Regular.ttf');
 }
 
+.hide {
+    display: none;
+}
+
 /* Legacy CSS */
 
 .GDKRacing{
  border: solid #05a005 3px;
  border-radius: 8px;   
 }
-.cardStyling {
+.LcardStyling {
     margin: 10px;
     padding:20px;
     background-color: #dcc338db !important;
-    border: solid black 3px;
+    border: solid black 3px !important;
 }
 
 /* Optional: you can reintroduce grid layout below if needed */
