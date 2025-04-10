@@ -20,7 +20,7 @@ body {
     background-attachment: fixed;
     background-size: contain;
     background-position: center center;
-    color: white;
+    color: black;
 }
 
 /* #cardText {} */
@@ -63,10 +63,7 @@ body {
     width: 50%;
 }
 
-.Plot {
-    padding: 10px;
-    margin: 10px;
-}
+
 .row:after {
     content: "";
     display: table;
@@ -80,6 +77,18 @@ td {
     border: 1px solid black;
     border-radius: 5px;
  
+}
+
+
+.plot {
+    padding: 0px 23px 0px 23px;
+    margin: 10px;
+    text-align: center;
+    border: black 5px solid;
+    border-radius: 10px;
+}
+.para {
+    font-size: 17px;
 }
 
 table, td {
@@ -118,6 +127,37 @@ table, td {
     font-family: 'Custom-Font';
     src: url('BungeeSpice-Regular.ttf');
 }
+
+/* Legacy CSS */
+
+.GDKRacing {
+    padding-bottom: 20px !important;
+}
+
+/* Optional: you can reintroduce grid layout below if needed */
+/*
+.container {
+    display: inline-grid;
+    grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
+    grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+}
+
+#LSideBar {
+    grid-column-start: span 1;
+    grid-column-end: 2;
+}
+*/
+
+/* test */
+
+/* COLOR REFERENCES (comments only, for dev reference) */
+/*
+--sapphire: #154DCDff;
+--earth-yellow: #F6BD6Dff;
+--poppy: #DE2D35ff;
+--shamrock-green: #58995Eff;
+--royal-blue-traditional: #0D2570ff;
+*/
 
 .card{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
