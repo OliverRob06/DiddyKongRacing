@@ -23,6 +23,8 @@ body {
     color: white;
 }
 
+/* #cardText {} */
+
 .divCardStyling {
     background-color: #dcc338db;
     border: 3px solid black;
@@ -31,7 +33,16 @@ body {
     margin: 20px;
 }
 
-/* #cardText {} */
+#cardHeaderId{
+    font-size: 40px;
+    text-align: center;
+    background-color: #fdcc07;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px; 
+}
+
 
 #boxArt {
     width: 550px;
