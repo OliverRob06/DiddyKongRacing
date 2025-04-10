@@ -3,7 +3,6 @@ nav {
     position: sticky;
     top: 0;
     color: white;
-    z-index: 10;
 }
 
 .navUl {
@@ -82,21 +81,21 @@ td {
 
 
 .plot {
-    padding: 10px;
+    padding: 0px 23px 0px 23px;
     margin: 10px;
     text-align: center;
-    border: black 3px solid;
+    border: black 5px solid;
     border-radius: 10px;
-    font-size: 18px;
 }
 .para {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 table, td {
     border: 1.5px solid black;
     border-collapse: separate;
 }
+
 
 
 .titles {
@@ -160,21 +159,22 @@ table, td {
 --royal-blue-traditional: #0D2570ff;
 */
 
-.card{
+.card-carousel{
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    margin: 30px;
-    background-image: linear-gradient(180deg, rgb(191, 22, 22), #dcc338db);
+    margin: 0px;
+    background-image: linear-gradient(180deg,#dcc338db , rgb(191, 22, 22));
     border-radius: 30px;
     text-align: center;
     border-top: black;
+    border-bottom: white;
 }
 
-    .card:hover {
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,2);
     }
 
-  .container {
+.container {
     padding: 2px 16px;
   }
 
@@ -187,7 +187,7 @@ table, td {
 
 .column2{
     float: left;
-    width: 33%;
+    width: 20%;
 }
 
 .row:after{
