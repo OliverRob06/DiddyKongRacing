@@ -20,8 +20,10 @@ body {
     background-attachment: fixed;
     background-size: contain;
     background-position: center center;
-    color: white;
+    color: black;
 }
+
+/* #cardText {} */
 
 .divCardStyling {
     background-color: #dcc338db;
@@ -31,7 +33,16 @@ body {
     margin: 20px;
 }
 
-/* #cardText {} */
+#cardHeaderId{
+    font-size: 40px;
+    text-align: center;
+    background-color: #fdcc07;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px; 
+}
+
 
 #boxArt {
     width: 550px;
@@ -52,6 +63,13 @@ body {
     width: 50%;
 }
 
+.plot {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: black 5px solid;
+    border-radius: 10px;
+}
 .row:after {
     content: "";
     display: table;
@@ -64,7 +82,7 @@ td {
     text-align: center;
     border: 1px solid black;
     border-radius: 5px;
-    /* Removed invalid alpha-levels property */
+ 
 }
 
 table, td {
@@ -72,7 +90,7 @@ table, td {
     border-collapse: separate;
 }
 
-/* Resolved style conflicts here */
+
 
 .titles {
     font-family: 'Custom-Font';
@@ -104,15 +122,11 @@ table, td {
     src: url('BungeeSpice-Regular.ttf');
 }
 
-
-
-
 /* Legacy CSS */
 
-.GDKRacing{
+.GDKRacing {
     padding-bottom: 20px !important;
 }
-
 
 /* Optional: you can reintroduce grid layout below if needed */
 /*
@@ -137,8 +151,6 @@ table, td {
 --poppy: #DE2D35ff;
 --shamrock-green: #58995Eff;
 --royal-blue-traditional: #0D2570ff;
-
-SCSS Gradients:
-$gradient-right: linear-gradient(90deg, #154DCDff, #F6BD6Dff, #DE2D35ff, #58995Eff, #0D2570ff);
-$gradient-radial: radial-gradient(#154DCDff, #F6BD6Dff, #DE2D35ff, #58995Eff, #0D2570ff);
 */
+
+
