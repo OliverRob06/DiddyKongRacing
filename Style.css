@@ -63,13 +63,7 @@ body {
     width: 50%;
 }
 
-.plot {
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    border: black 5px solid;
-    border-radius: 10px;
-}
+
 .row:after {
     content: "";
     display: table;
@@ -83,6 +77,18 @@ td {
     border: 1px solid black;
     border-radius: 5px;
  
+}
+
+
+.plot {
+    padding: 0px 23px 0px 23px;
+    margin: 10px;
+    text-align: center;
+    border: black 5px solid;
+    border-radius: 10px;
+}
+.para {
+    font-size: 18px;
 }
 
 table, td {
