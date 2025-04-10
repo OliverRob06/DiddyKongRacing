@@ -110,9 +110,9 @@ table, td {
 /* Legacy CSS */
 
 .GDKRacing{
-    padding-bottom: 20px !important;
+ border: solid #05a005 3px;
+ border-radius: 8px;   
 }
-
 
 /* Optional: you can reintroduce grid layout below if needed */
 /*
