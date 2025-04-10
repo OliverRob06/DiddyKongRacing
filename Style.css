@@ -20,7 +20,7 @@ body {
     background-attachment: fixed;
     background-size: contain;
     background-position: center center;
-    color: white;
+    color: black;
 }
 
 /* #cardText {} */
@@ -63,6 +63,13 @@ body {
     width: 50%;
 }
 
+.plot {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border: black 5px solid;
+    border-radius: 10px;
+}
 .row:after {
     content: "";
     display: table;
