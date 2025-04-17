@@ -193,7 +193,7 @@ table, td {
 
 @font-face {
     font-family: 'Custom-Font';
-    src: url('BungeeSpice-Regular.ttf');
+    src: url('fontImport/BungeeSpice-Regular.ttf');
 }
 
 /* Legacy CSS */
