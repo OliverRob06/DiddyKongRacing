@@ -282,6 +282,7 @@ table, td {
     justify-content: center; 
     align-items: center; 
     overflow: hidden; 
+    background-color: #dcc338db;
 }
 
 .card-image .card-img {
@@ -316,7 +317,7 @@ table, td {
 }
 
 .button:hover{
-    background: #1B263B;
+    background: #dcc338db;
 }
 
 .card-wrapper {
