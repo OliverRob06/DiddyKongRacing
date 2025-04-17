@@ -195,11 +195,14 @@ table, td {
     src: url('BungeeSpice-Regular.ttf');
 }
 
-.hide {
-    display: none;
-}
-
 /* Legacy CSS */
+
+.hide {
+    display: none !important;
+}
+.shown:hover + .hide {
+    display: flex !important;
+} 
 
 .GDKRacing{
  border: solid #05a005 3px;
@@ -210,6 +213,14 @@ table, td {
     padding:20px;
     background-color: #dcc338db !important;
     border: solid black 3px !important;
+}
+
+#DSBackground {
+    z-index: 1;
+}
+
+#soundDiv {
+    width: 350px;
 }
 
 
