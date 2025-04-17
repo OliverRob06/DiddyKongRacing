@@ -1,3 +1,4 @@
+
 /* Nav Bar */
 nav {
     position: sticky;
@@ -144,6 +145,10 @@ table, td {
     padding:20px;
     background-color: #dcc338db !important;
     border: solid black 3px !important;
+}
+
+#soundDiv {
+    width: 250px;
 }
 
 /* Optional: you can reintroduce grid layout below if needed */
