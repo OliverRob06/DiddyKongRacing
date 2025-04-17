@@ -1,3 +1,4 @@
+
 /* Nav Bar */
 nav {
     position: sticky;
@@ -215,6 +216,9 @@ table, td {
     border: solid black 3px !important;
 }
 
+
+
+=======
 #DSBackground {
     z-index: 1;
 }
@@ -335,20 +339,6 @@ table, td {
     gap: 20px;
     justify-content: center; 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
