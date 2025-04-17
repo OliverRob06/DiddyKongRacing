@@ -146,6 +146,9 @@ table, td {
     border: solid black 3px !important;
 }
 
+
+/* Reception CSS*/
+
 .slide-container{
     max-width: 1200px;
     width: 100%;
@@ -203,23 +206,25 @@ table, td {
 }
 
 
-.card-image{
+.card-image {
     position: relative;
-    height: 150px;
-    width: 150px;
+    width: 150px; 
+    height: 150px; 
     border-radius: 50%;
     padding: 3px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
 }
 
-.card-image .card-img{
-    height: auto;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 4px solid #E0E1DD;
-    object-fit:contain;
-    
+.card-image .card-img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;     
+    border-radius: 50%; 
 }
+
 
 .title{
     font-size: 18px;
