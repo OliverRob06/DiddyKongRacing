@@ -18,7 +18,7 @@ nav {
 /* Main body CSS */
 body {
     /* background-color: #383534; */
-    background-image: url("DKBackground.jpg");
+    background-image: url("Images/DKBackground.jpg");
     background-attachment: fixed;
     background-size: contain;
     background-position: center center;
@@ -516,7 +516,7 @@ table, td {
     
     @font-face {
         font-family: 'Custom-Font';
-        src: url('BungeeSpice-Regular.ttf');
+        src: url('fontImport/BungeeSpice-Regular.ttf');
     }
     
     /* Hide */
