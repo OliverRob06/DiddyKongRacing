@@ -249,15 +249,22 @@ table, td {
 
 .Receptioncard{
     width: 320px;
+    height: 420px;
+    position: relative;
     border-radius: 25px;
     background-color: #E0E1DD;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
+
+
+
 .Receptioncard:hover {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
   }
+
+
 
 
 .card-image {
@@ -287,6 +294,12 @@ table, td {
     color: #333;
 }
 
+.ReceptionTitle{
+    padding: 3px;
+}
+
+
+
 .button{
     border: none;
     font-size: 15px;
@@ -295,7 +308,6 @@ table, td {
     background-color: #DE2D35ff;
     border-radius: 6px;
     margin: 14px;
-    cursor: pointer;
     transition: all 0.3s ease;
 }
 
@@ -344,6 +356,7 @@ table, td {
         animation: 
             typing 2s,
             cursor .4s step-end infinite alternate;
+        padding: 0;
         
     }
     
@@ -357,6 +370,8 @@ table, td {
         to {width: 20ch;}
         
     }
+
+
 
 
 
