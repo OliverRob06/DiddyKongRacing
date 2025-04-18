@@ -4,5 +4,7 @@ const swiper = new Swiper('.slide-content', {
   spaceBetween: 20,
 });
 
-
+document.querySelector('.card-character').addEventListener('click', function () {
+        this.classList.toggle('flipped');
+    });
 
