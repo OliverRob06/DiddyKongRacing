@@ -249,7 +249,7 @@ table, td {
 
 .Receptioncard{
     width: 320px;
-    height: 420px;
+    height: 300px;
     position: relative;
     border-radius: 25px;
     background-color: #E0E1DD;
@@ -326,12 +326,13 @@ table, td {
     font-size: 15px;
     text-align: center;
     position: relative;/* Nav Bar */
-    nav {
-        position: sticky;
-        top: 0;
-        color: white;
-        z-index: 100;   
-    }
+ 
+}   
+
+
+.card-content2{
+ padding: 30px;
+ text-align: center;
 }   
     
     /* General Styling */
@@ -371,6 +372,11 @@ table, td {
         
     }
 
+    .sidebySide{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
 
 
 
