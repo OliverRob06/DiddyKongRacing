@@ -45,7 +45,8 @@ body {
     margin: 10px; 
 }
 
-/*plot CSS*/
+
+/*Plot CSS*/
 
 /* adds interactivity to rows */
 .plotRow {
@@ -67,18 +68,6 @@ body {
         flex: 0 0 100%;
         max-width: 100%;
     }
-}
-
-
-/* heading of the card in plot */
-#cardHeaderId{
-    font-size: 40px;
-    text-align: center;
-    background-color: #fdcc07;
-    border: 3px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px; 
 }
 
 /* text of the card in plot */
@@ -120,17 +109,6 @@ body {
 }
 
 /*end of plot css*/
-
-
-
-#boxArt {
-    width: 550px;
-    height: 350px;
-    border: black 5px double;
-    border-radius: 10px;
-    margin-bottom: 35px;
-    justify-content: center;
-}
 
 #title {
     justify-content: center;
@@ -182,15 +160,7 @@ table, td {
     background-color: transparent;
 }
 
-.receptionMain {
-    border: 2px solid black;
-    background-color: #dcc338db;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: right;
-}
-
+/* Importing New font */
 @font-face {
     font-family: 'Custom-Font';
     src: url('fontImport/BungeeSpice-Regular.ttf');
@@ -311,11 +281,6 @@ table, td {
     color: #333;
 }
 
-.description{
-    font-size: 15px;
-    color: #707070;
-    text-align: center;
-}
 .button{
     border: none;
     font-size: 15px;
@@ -347,108 +312,7 @@ table, td {
         color: white;
         z-index: 100;   
     }
-}
-    
-    .navUl {
-        background-image: linear-gradient(90deg, #58995Eff, #0D2570ff);
-    }
-    
-    .white-link {
-        color: white;
-    }
-    
-    /* Main body CSS */
-    body {
-        background-image: url("DKBackground.jpg");
-        background-attachment: fixed;
-        background-size: contain;
-        background-position: center center;
-        color: black;
-        font-family: Arial, sans-serif; /* Fallback font */
-    }
-    
-    /* #cardText {} */
-    
-    .divCardStyling {
-        background-color: #dcc338db;
-        border: 3px solid black;
-        border-radius: 10px;
-        padding: 20px;
-        margin: 20px;
-    }
-    
-    #cardHeaderId {
-        font-size: 40px;
-        text-align: center;
-        background-color: #fdcc07;
-        border: 3px solid black;
-        border-radius: 10px;
-        padding: 10px;
-        margin: 10px; 
-    }
-    
-    /* Plot CSS */
-    .plotRow {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    
-    .plotCols {
-        flex: 0 0 46%; 
-        max-width: 46%;
-    }
-    
-    @media (max-width: 1200px) {
-        .plotCols {
-            flex: 0 0 100%;
-            max-width: 100%;
-        }
-    }
-    
-    #cardHeaderId {
-        font-size: 40px;
-        text-align: center;
-        background-color: #fdcc07;
-        border: 3px solid black;
-        border-radius: 10px;
-        padding: 10px;
-        margin: 10px; 
-    }
-    
-    .plotCardText {
-        padding: 10px;
-        margin: 10px;
-        text-align: center;
-        border: black 3px solid;
-        border-radius: 10px;
-        font-size: 18px;
-    }
-    
-    .subheading {
-        text-align: center;
-        background-color: #fdcc07;
-        border: 3px solid black;
-        border-radius: 10px;
-        padding: 5px;
-        margin: 5px;  
-        box-sizing: border-box;
-        overflow-wrap: break-word;
-        word-break: break-word;
-    }
-    
-    .plotFooter {
-        text-align: center;
-        color: white;
-        background-color: rgb(40, 42, 46); 
-        padding: 10px;
-    }
-    
-    .para {
-        font-size: 18px;
-    }
-    
-    /* End of Plot CSS */
+}   
     
     /* General Styling */
     #boxArt {
@@ -461,213 +325,8 @@ table, td {
         justify-content: center;
     }
     
-    #title {
-        justify-content: center;
-        margin: 20px;
-    }
-    
-    .column {
-        float: left;
-        width: 50%;
-    }
-    
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    
-    td {
-        padding: 5px;
-        margin: 10px;
-        text-align: center;
-        border: 1px solid black;
-        border-radius: 5px;
-    }
-    
-    table, td {
-        border: 1.5px solid black;
-        border-collapse: separate;
-    }
-    
-    .titles {
-        font-family: 'Custom-Font', sans-serif; /* Fallback font */
-        font-size: 40px;
-        font-weight: bold;
-        text-align: center;
-        background-color: #fdcc07;
-        border: 3px solid black;
-        border-radius: 10px;
-        padding: 10px;
-        margin: 10px;
-    }
-    
-    .main {
-        background-color: transparent;
-    }
-    
-    .receptionMain {
-        border: 2px solid black;
-        background-color: #dcc338db;
-        margin: 20px;
-        padding: 20px;
-        border-radius: 20px;
-        text-align: right;
-    }
-    
-    @font-face {
-        font-family: 'Custom-Font';
-        src: url('fontImport/BungeeSpice-Regular.ttf');
-    }
-    
-    /* Hide */
-    .hide {
-        display: none;
-    }
-    
-    /* Legacy CSS */
-    .GDKRacing {
-        border: solid #05a005 3px;
-        border-radius: 8px;   
-    }
-    
-    .LcardStyling {
-        margin: 10px;
-        padding:20px;
-        background-color: #dcc338db !important;
-        border: solid black 3px !important;
-    }
-    
-    #soundDiv {
-        width: 250px;
-    }
-    
-    /* Reception CSS */
-    .slide-container {
-        max-width: 1200px;
-        width: 100%;
-        background-color: transparent;
-        padding: 40px 0;
-        margin: 40px;
-    }
-    
-    .slide-content {
-        margin: 0 40px;
-    }
-    
-    .image-content, .card-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 14px;
-    }
-    
-    .image-content {
-        position: relative;
-        row-gap: 5px;
-        padding: 25px 0;
-    }
-    
-    .overlay {
-        position: absolute;
-        border-radius: 25px 25px 0 25px;
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        background: #DE2D35ff;
-    }
-    
-    .overlay::before, .overlay::after {
-        content: '';
-        position: absolute;
-        right: 0;
-        bottom: -40px;
-        height: 40px;
-        width: 40px;
-        background-color: #DE2D35ff;
-    }
-    
-    .overlay::after {
-        border-radius: 0 25px 0 0;
-        background-color: #E0E1DD;
-    }
-    
-    .Receptioncard {
-        width: 320px;
-        border-radius: 25px;
-        background-color: #E0E1DD;
-    }
-    
-    .card-image {
-        position: relative;
-        width: 150px; 
-        height: 150px; 
-        border-radius: 50%;
-        padding: 3px;
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
-        overflow: hidden; 
-        background-color: #dcc338db;
-    }
-    
-    .card-image .card-img {
-        width: 100%; 
-        height: 100%; 
-        object-fit: contain;     
-        border-radius: 50%; 
-    }
-    
-    .title {
-        font-size: 18px;
-        font-weight: 500;
-        color: #333;
-    }
-    
-    .description {
-        font-size: 15px;
-        color: #707070;
-        text-align: center;
-    }
-    
-    .button {
-        border: none;
-        font-size: 15px;
-        color: #fff;
-        padding: 8px 16px;
-        background-color: #DE2D35ff;
-        border-radius: 6px;
-        margin: 14px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-    
-    .button:hover {
-        background: #dcc338db;
-    }
-    
-    .card-wrapper {
-        gap: 20px;
-        justify-content: center; 
-    }
-    
-    /* Media Queries for Mobile Devices */
-    @media (max-width: 768px) {
-        .card-wrapper {
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .titles {
-            font-size: 30px;
-        }
-    
-        .button {
-            font-size: 14px;
-            padding: 6px 12px;
-        }
-    }
+
+
     
     .description {
         width: 100%;
